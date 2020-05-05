@@ -1,0 +1,54 @@
+#include <iostream>
+#include <string>
+
+string cmd[6] = {"/", "open", "list", "help", "new", "delete"};
+main(){
+   for(int i = 0; i < 1 ){
+      string prompt;
+      string cmdprompt;
+      string cmdtest = prompt - prompt[0];
+
+      cout << "Fil.edt is operational.\n";
+      cout << "Enter a command. Type /help for prompts.\n";
+      
+      cin >> prompt; 
+         if(prompt[0] == cmd[0]){
+	    if(cmdtest == help){
+   	       cout << "/open is used to access files or folders.\n";
+   	       cout << "/list is used to list files in a specified region.\n";
+   	       cout << "/new is used to create new folders and subfolders";
+   	       cout << "/delete is used to delete selected reigons ";
+	    } else if(cmdtest == list){
+   	       cout << " ";
+   	       cin >> cmdprompt;
+   	       cout << "Command Unavailible.";
+   	       cout << "Currently In Development.";
+	    } else if(cmdtest == open){
+   	       cout << " ";
+   	       cin >> cmdprompt;
+   	       cout << "Command Unavailible.";
+   	       cout << "Currently In Development.";
+	    } else if(cmdtest == new){
+   	       cout << " ";
+   	       cin >> cmdprompt;
+   	       cout << "Command Unavailible.";
+   	       cout << "Currently In Development.";
+	    } else if(cmdtest == delete){
+   	       cout << " ";
+   	       cin >> cmdprompt;
+   	       cout << "Command Unavailible.";
+               cout << "Currently In Development.";
+	    }
+	 } else{
+	      cout << "Invalid Command.\n"; 
+	   }
+   }
+}
+open(){}
+list(){}
+help(){}
+new(){}
+delete(){}
+
+int main() {
+return 0;}
